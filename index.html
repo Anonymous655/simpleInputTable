@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Form</title>
+</head>
+<body>
+        <h1>User Details</h1>
+            <div id ="inputBox">
+                <div class="inputDiv">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" />
+                </div>
+                <div class="inputDiv">
+                    <label for="email">Email ID</label>
+                    <input id="email" type="email" />
+                </div>
+                <div class="inputDiv" >
+                    <label for="phNumber">Phone Number</label>
+                    <input id="phNumber" type="text" />
+                </div>
+                <div class="inputDiv" >
+                    <label for="img">Image</label>
+                    <input id="image" type="file" accept="image/png, image/jpeg"/>
+                </div>
+            </div>
+
+            <button id="submit" type="button" >Submit</button>
+
+            
+    <table width="500px" id="table" border="1">
+        <tr>
+            <th>S. No</th>
+            <th>Name</th>
+            <th>Email ID</th>
+            <th>Phone No</th>
+            <th>Image</th>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>

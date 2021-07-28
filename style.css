@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    text-align: center;
+    margin: 30px;
+}
+#inputBox{
+    margin: auto;
+    display: flex;
+}
+
+#submit{
+    margin: auto;
+    margin-top: 30px;
+    width: 70px;
+    padding: 6px;
+    font-weight: 900;
+    background-color:rgb(80, 181, 240);
+    color:white;
+}
+#table {
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    background: hsl(83, 97%, 50%);
+    color: black;
+
+}
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+#inputBox input {
+    margin-top: 8px;
+    height: 20px;
+}
+
+
+#table th, #table td{
+    padding: 12px;
+}
+
+#tableImage {
+    width: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    object-fit: cover;
+    padding: 1px;
+
+
+
+}
+
